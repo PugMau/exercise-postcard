@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Lugrasimo&display=swap");
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	font-family: "Jersey 15", sans-serif;
+	font-size: 45px;
+	width: 500px;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left p {
+	font-family: "Lugrasimo", sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+.body-right input {
+	font-family: "Jersey 15", sans-serif;
+	border: none;
+	font-size: 17px;
+	border-bottom: 1px solid grey;
+	margin-bottom: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	font-family: "Jersey 15", sans-serif;
+	font-size: 15px;
+	background-color: darkgray;
+	padding: 10px;
+	margin-top: 30px;
+	cursor: pointer;
+}
